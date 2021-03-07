@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  width: 300px;
+  margin: 10px;
+}
+
+ul {
+  display: grid;
+  place-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: grid;
+  place-content: center;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  text-transform: uppercase;
+  margin: 1rem 0 0 0;
+}
+
+.card p {
+  text-transform: capitalize;
+}
+
+.updateWrapper {
+  width: 100%;
+}
+
+.updateWrapper input[type='text'] {
+  margin: 0 auto;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  margin: 1rem auto;
+  width: 100%;
+  border: tomato 2px solid;
+  color: tomato;
+  background: #fff;
+  border-radius: 4px;
+  max-width: 223.79px;
+}
